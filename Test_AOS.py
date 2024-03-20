@@ -2,16 +2,16 @@ from unittest import TestCase
 from selenium import webdriver
 from random import randint, choice
 from time import sleep
-from examples.projectAOS.Main_page import Main_Page
-from examples.projectAOS.Category_page import Category_Page
-from examples.projectAOS.Product_page import Product_Page
-from examples.projectAOS.Top_panel import Top_Panel
+from Main_page import Main_Page
+from Category_page import Category_Page
+from Product_page import Product_Page
+from Top_panel import Top_Panel
 from selenium.webdriver.common.keys import Keys
-from examples.projectAOS.Cart_page import Cart_page
-from examples.projectAOS.Account import Account
-from examples.projectAOS.Order_payment_page import Order_Payment
-from examples.projectAOS.Cart_pane import Cart_pane
-from examples.projectAOS.Product import Product
+from Cart_page import Cart_page
+from Account import Account
+from Order_payment_page import Order_Payment
+from Cart_pane import Cart_pane
+from Product import Product
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
